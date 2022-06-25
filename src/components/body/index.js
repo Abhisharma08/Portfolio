@@ -2,9 +2,10 @@ import React from "react";
 import "./body.css";
 import About from "./about/index";
 import Projects from "./projects";
+import Slider from "./review/Slider";
 import Skills from "./skills/index";
 import Contact from "./contact/index";
-import Footer from "../footer";
+//import Footer from "../footer"
 
 function Body() {
   return (
@@ -15,6 +16,10 @@ function Body() {
 
       <section id="projects">
         <Projects />
+      </section>
+
+      <section id="testimonials">
+        <Slider />
       </section>
 
       <section id="skills">

@@ -11,6 +11,12 @@ function Web() {
       </div>
 
       <div className="web-option">
+        <a href="#testimonials">
+          <i class="fi fi-rr-star"></i>Testimonials
+        </a>
+      </div>
+
+      <div className="web-option">
         <a href="#skills">
           <i class="fi fi-rr-laptop option-icon"></i>Skills
         </a>
